@@ -1,0 +1,119 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Staff entity -->
+    <xs:element name="Staff">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="StaffID" type="xs:integer"/>
+                <xs:element name="HotelCode" type="xs:integer"/>
+                <xs:element name="FirstName" type="xs:string"/>
+                <xs:element name="LastName" type="xs:string"/>
+                <xs:element name="DOB" type="xs:date" minOccurs="0"/>
+                <xs:element name="Gender" type="xs:string"/>
+                <xs:element name="Email" type="xs:string"/>
+                <xs:element name="Phone" type="xs:string" minOccurs="0"/>
+                <xs:element name="Password" type="xs:string"/>
+                <xs:element name="Position" type="xs:string" minOccurs="0"/>
+                <xs:element name="Salary" type="xs:decimal" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Room entity -->
+    <xs:element name="Room">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="RoomNo" type="xs:integer"/>
+                <xs:element name="HotelCode" type="xs:integer"/>
+                <xs:element name="RoomType" type="xs:string"/>
+                <xs:element name="PricePerNight" type="xs:decimal"/>
+                <xs:element name="NumBeds" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Guest entity -->
+    <xs:element name="Guest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="GuestID" type="xs:integer"/>
+                <xs:element name="FirstName" type="xs:string"/>
+                <xs:element name="LastName" type="xs:string"/>
+                <xs:element name="DOB" type="xs:date" minOccurs="0"/>
+                <xs:element name="Gender" type="xs:string"/>
+                <xs:element name="Email" type="xs:string"/>
+                <xs:element name="Password" type="xs:string"/>
+                <xs:element name="Address" type="xs:string" minOccurs="0"/>
+                <xs:element name="Phone" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Resource entity -->
+    <xs:element name="Resource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ResourceID" type="xs:integer"/>
+                <xs:element name="HotelCode" type="xs:integer"/>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Quantity" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Expense entity -->
+    <xs:element name="Expense">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ExpenseID" type="xs:integer"/>
+                <xs:element name="HotelCode" type="xs:integer"/>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Amount" type="xs:decimal"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Booking entity -->
+    <xs:element name="Booking">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="BookingID" type="xs:integer"/>
+                <xs:element name="HotelCode" type="xs:integer"/>
+                <xs:element name="RoomNo" type="xs:integer"/>
+                <xs:element name="GuestID" type="xs:integer"/>
+                <xs:element name="BookingDateTime" type="xs:dateTime"/>
+                <xs:element name="CheckinDateTime" type="xs:dateTime"/>
+                <xs:element name="CheckoutDateTime" type="xs:dateTime"/>
+                <xs:element name="NumAdults" type="xs:integer"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Bill entity -->
+    <xs:element name="Bill">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="InvoiceNum" type="xs:integer"/>
+                <xs:element name="BookingID" type="xs:integer"/>
+                <xs:element name="Amount" type="xs:decimal"/>
+                <xs:element name="PaidDate" type="xs:date" minOccurs="0"/>
+                <xs:element name="PaymentMode" type="xs:string" minOccurs="0"/>
+                <xs:element name="ExpireDate" type="xs:date"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Service entity -->
+    <xs:element name="Service">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ID" type="xs:integer"/>
+                <xs:element name="BillNum" type="xs:integer"/>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Cost" type="xs:decimal"/>
+                <xs:element name="Description" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

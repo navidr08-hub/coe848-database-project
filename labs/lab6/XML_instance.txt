@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <!-- Hotel instances -->
+    <Hotel>
+        <HotelCode>1</HotelCode>
+        <HotelName>Grand Hotel</HotelName>
+        <Address>123 Main Street</Address>
+        <City>New York</City>
+        <Country>USA</Country>
+        <PhoneNumber>+1 123 456 7890</PhoneNumber>
+        <Email>info@grandhotel.com</Email>
+    </Hotel>
+    <Hotel>
+        <HotelCode>2</HotelCode>
+        <HotelName>Beach Resort</HotelName>
+        <Address>456 Ocean Avenue</Address>
+        <City>Miami</City>
+        <Country>USA</Country>
+        <PhoneNumber>+1 987 654 3210</PhoneNumber>
+        <Email>info@beachresort.com</Email>
+    </Hotel>
+    <Hotel>
+        <HotelCode>3</HotelCode>
+        <HotelName>Mountain Lodge</HotelName>
+        <Address>789 Summit Road</Address>
+        <City>Denver</City>
+        <Country>USA</Country>
+        <PhoneNumber>+1 567 890 1234</PhoneNumber>
+        <Email>info@mountainlodge.com</Email>
+    </Hotel>
+    <Hotel>
+        <HotelCode>4</HotelCode>
+        <HotelName>Lakeside Inn</HotelName>
+        <Address>101 Lakeview Drive</Address>
+        <City>Chicago</City>
+        <Country>USA</Country>
+        <PhoneNumber>+1 345 678 9012</PhoneNumber>
+        <Email>info@lakesideinn.com</Email>
+    </Hotel>
+    <Hotel>
+        <HotelCode>5</HotelCode>
+        <HotelName>City Center Hotel</HotelName>
+        <Address>789 Downtown Avenue</Address>
+        <City>Los Angeles</City>
+        <Country>USA</Country>
+        <PhoneNumber>+1 234 567 8901</PhoneNumber>
+        <Email>info@citycenterhotel.com</Email>
+    </Hotel>
+
+    <!-- Staff instances -->
+    <Staff>
+        <StaffID>1</StaffID>
+        <HotelCode>1</HotelCode>
+        <FirstName>Bethan</FirstName>
+        <LastName>Ramirez</LastName>
+        <DOB></DOB>
+        <Gender>M</Gender>
+        <Email>bramirez@hotel.com</Email>
+        <Phone></Phone>
+        <Password>$2b$12$r7b.2pj7WfBm3JiHGQsQr.J96CRNoLUafwtCXdLiBW/diI64fCI.C</Password>
+        <Position></Position>
+        <Salary></Salary>
+    </Staff>
+    <Staff>
+        <StaffID>2</StaffID>
+        <HotelCode>1</HotelCode>
+        <FirstName>Eoin</FirstName>
+        <LastName>Colon</LastName>
+        <DOB></DOB>
+        <Gender>M</Gender>
+        <Email>eoin.colon@hotel.com</Email>
+        <Phone></Phone>
+        <Password>$2b$12$DnLwxMa21nv5tIl/dldz7uUpLfWzPqYN4fk3ZmGTfU23yXTzOMVP6</Password>
+        <Position></Position>
+        <Salary></Salary>
+    </Staff>
+    <Staff>
+        <StaffID>3</StaffID>
+        <HotelCode>1</HotelCode>
+        <FirstName>Pablo</FirstName>
+        <LastName>Rivers</LastName>
+        <DOB></DOB>
+        <Gender>M</Gender>
+        <Email>pablo.rivers@hotel.com</Email>
+        <Phone></Phone>
+        <Password>$2b$12$nyrSDwO1cSMd8VEt4tRhSe71u1mi7zSkFQMMTg/u4gILCFupDwYF6</Password>
+        <Position></Position>
+        <Salary></Salary>
+    </Staff>
+    <Staff>
+        <StaffID>4</StaffID>
+        <HotelCode>1</HotelCode>
+        <FirstName>Richard</FirstName>
+        <LastName>Gilmore</LastName>
+        <DOB></DOB>
+        <Gender>M</Gender>
+        <Email>richard.gilmore@hotel.com</Email>
+        <Phone></Phone>
+        <Password>$2b$12$iMtAxDvhkThUugFNAs1erunaBi416zrb0IajY0tBp4e2VinNN3g1S</Password>
+        <Position></Position>
+        <Salary></Salary>
+    </Staff>
+    <Staff>
+        <StaffID>5</StaffID>
+        <HotelCode>1</HotelCode>
+        <FirstName>Zahraa</FirstName>
+        <LastName>Woodward</LastName>
+        <DOB></DOB>
+        <Gender>F</Gender>
+        <Email>zwoodward@hotel.com</Email>
+        <Phone></Phone>
+        <Password>$2b$12$hQCcjv31Gantt.i4DzGLGOOkIMhEf8mo.SkLBjV3PFb4KSi9J2euu</Password>
+        <Position></Position>
+        <Salary></Salary>
+    </Staff>
+
+    <!-- Room instances -->
+    <Room>
+        <RoomNo>1</RoomNo>
+        <HotelCode>1</HotelCode>
+        <RoomType>Guest</RoomType>
+        <PricePerNight>81.99</PricePerNight>
+        <NumBeds>1</NumBeds>
+    </Room>
+    <Room>
+        <RoomNo>2</RoomNo>
+        <HotelCode>1</HotelCode>
+        <RoomType>Guest</RoomType>
+        <PricePerNight>145.0</PricePerNight>
+        <NumBeds>2</NumBeds>
+    </Room>
+    <Room>
+        <RoomNo>3</RoomNo>
+        <HotelCode>1</HotelCode>
+        <RoomType>Guest</RoomType>
+        <PricePerNight>81.99</PricePerNight>
+        <NumBeds>1</NumBeds>
+    </Room>
+    <Room>
+        <RoomNo>4</RoomNo>
+        <HotelCode>1</HotelCode>
+        <RoomType>Office</RoomType>
+        <PricePerNight>81.99</PricePerNight>
+        <NumBeds>1</NumBeds>
+    </Room>
+    <Room>
+        <RoomNo>5</RoomNo>
+        <HotelCode>1</HotelCode>
+        <RoomType>Public</RoomType>
+        <PricePerNight>81.99</PricePerNight>
+        <NumBeds>1</NumBeds>
+    </Room>
+
+    <!-- Guest instances -->
+    <Guest>
+        <GuestID>1</GuestID>
+        <FirstName>Irene</FirstName>
+        <LastName>Miles</LastName>
+        <DOB></DOB>
+        <Gender>F</Gender>
+        <Email>irene.miles@gmail.com</Email>
+        <Password>irenemiles</Password>
+        <Address></Address>
+        <Phone></Phone>
+    </Guest>
+    <Guest>
+        <GuestID>2</GuestID>
+        <FirstName>Phoebe</FirstName>
+        <LastName>Mayer</LastName>
+        <DOB></DOB>
+        <Gender>F</Gender>
+        <Email>phoebe.mayer@gmail.com</Email>
+        <Password>phoebemayer</Password>
+        <Address></Address>
+        <Phone></Phone>
+    </Guest>
+    <Guest>
+        <GuestID>3</GuestID>
+        <FirstName>Cara</FirstName>
+        <LastName>Leblanc</LastName>
+        <DOB></DOB>
+        <Gender>F</Gender>
+        <Email>cara.leblanc@gmail.com</Email>
+        <Password>caraleblanc</Password>
+        <Address></Address>
+        <Phone></Phone>
+    </Guest>
+    <Guest>
+        <GuestID>4</GuestID>
+        <FirstName>Bonnie</FirstName>
+        <LastName>Webb</LastName>
+        <DOB></DOB>
+        <Gender>F</Gender>
+        <Email>bonnie.webb@gmail.com</Email>
+        <Password>bonniewebb</Password>
+        <Address></Address>
+        <Phone></Phone>
+    </Guest>
+    <Guest>
+        <GuestID>5</GuestID>
+        <FirstName>Earle</FirstName>
+        <LastName>Khan</LastName>
+        <DOB></DOB>
+        <Gender>M</Gender>
+        <Email>earle.khan@gmail.com</Email>
+        <Password>earlekhan</Password>
+        <Address></Address>
+        <Phone></Phone>
+    </Guest>
+
+    <!-- Resource instances -->
+    <Resource>
+    	<ResourceID>1</ResourceID>
+    	<HotelCode>1</HotelCode>
+    	<Name>Bread</Name>
+    	<Quantity>4</Quantity>
+    </Resource>
+    <Resource>
+        <ResourceID>2</ResourceID>
+        <HotelCode>1</HotelCode>
+        <Name>Coffee</Name>
+        <Quantity>20</Quantity>
+    </Resource>
+    <Resource>
+        <ResourceID>3</ResourceID>
+        <HotelCode>1</HotelCode>
+        <Name>Egg</Name>
+        <Quantity>120</Quantity>
+    </Resource>
+    <Resource>
+        <ResourceID>4</ResourceID>
+        <HotelCode>1</HotelCode>
+        <Name>Lettuce</Name>
+        <Quantity>50</Quantity>
+    </Resource>
+    <Resource>
+        <ResourceID>5</ResourceID>
+        <HotelCode>1</HotelCode>
+        <Name>Hand-soap</Name>
+        <Quantity>34</Quantity>
+    </Resource>
+
+
+    <!-- Expense instances -->
+    <Expense>
+        <ExpenseID>1</ExpenseID>
+        <HotelCode>1</HotelCode>
+        <Name>Resupply bread</Name>
+        <Amount>50.0</Amount>
+    </Expense>
+    <Expense>
+        <ExpenseID>2</ExpenseID>
+        <HotelCode>1</HotelCode>
+        <Name>Resupply coffee</Name>
+        <Amount>60.0</Amount>
+    </Expense>
+    <Expense>
+        <ExpenseID>3</ExpenseID>
+        <HotelCode>1</HotelCode>
+        <Name>Guest speaker event</Name>
+        <Amount>150.0</Amount>
+    </Expense>
+    <Expense>
+        <ExpenseID>4</ExpenseID>
+        <HotelCode>2</HotelCode>
+        <Name>Resupply broom</Name>
+        <Amount>24.0</Amount>
+    </Expense>
+    <Expense>
+        <ExpenseID>5</ExpenseID>
+        <HotelCode>2</HotelCode>
+        <Name>Resupply towel</Name>
+        <Amount>70.0</Amount>
+    </Expense>
+
+    <!-- Booking instances -->
+    <Booking>
+        <BookingID>1</BookingID>
+        <HotelCode>1</HotelCode>
+        <RoomNo>2</RoomNo>
+        <GuestID>3</GuestID>
+        <BookingDateTime>2024-04-10 12:00:00</BookingDateTime>
+        <CheckinDateTime>2024-05-01 14:00:00</CheckinDateTime>
+        <CheckoutDateTime>2024-05-05 10:00:00</CheckoutDateTime>
+        <NumAdults>2</NumAdults>
+    </Booking>
+    <Booking>
+        <BookingID>2</BookingID>
+        <HotelCode>1</HotelCode>
+        <RoomNo>1</RoomNo>
+        <GuestID>1</GuestID>
+        <BookingDateTime>2024-03-06 16:30:22</BookingDateTime>
+        <CheckinDateTime>2024-03-06 16:30:22</CheckinDateTime>
+        <CheckoutDateTime>2024-03-08 16:30:22</CheckoutDateTime>
+        <NumAdults>1</NumAdults>
+    </Booking>
+    <Booking>
+        <BookingID>3</BookingID>
+        <HotelCode>1</HotelCode>
+        <RoomNo>2</RoomNo>
+        <GuestID>2</GuestID>
+        <BookingDateTime>2024-03-06 16:30:22</BookingDateTime>
+        <CheckinDateTime>2024-03-06 16:30:22</CheckinDateTime>
+        <CheckoutDateTime>2024-03-09 16:30:22</CheckoutDateTime>
+        <NumAdults>2</NumAdults>
+    </Booking>
+    <Booking>
+        <BookingID>4</BookingID>
+        <HotelCode>1</HotelCode>
+        <RoomNo>3</RoomNo>
+        <GuestID>3</GuestID>
+        <BookingDateTime>2024-03-06 16:30:22</BookingDateTime>
+        <CheckinDateTime>2024-03-06 16:30:22</CheckinDateTime>
+        <CheckoutDateTime>2024-03-10 16:30:22</CheckoutDateTime>
+        <NumAdults>1</NumAdults>
+    </Booking>
+    <Booking>
+        <BookingID>5</BookingID>
+        <HotelCode>1</HotelCode>
+        <RoomNo>4</RoomNo>
+        <GuestID>4</GuestID>
+        <BookingDateTime>2024-03-06 16:30:22</BookingDateTime>
+        <CheckinDateTime>2024-03-06 16:30:22</CheckinDateTime>
+        <CheckoutDateTime>2024-03-11 16:30:22</CheckoutDateTime>
+        <NumAdults>1</NumAdults>
+    </Booking>
+
+
+    <!-- Bill instances -->
+    <Bill>
+        <InvoiceNum>1</InvoiceNum>
+        <BookingID>1</BookingID>
+        <Amount>100.0</Amount>
+        <PaidDate>2024-04-10</PaidDate>
+        <PaymentMode>Debit</PaymentMode>
+        <ExpireDate>2024-04-15</ExpireDate>
+    </Bill>
+    <Bill>
+        <InvoiceNum>2</InvoiceNum>
+        <BookingID>2</BookingID>
+        <Amount>150.0</Amount>
+        <PaidDate>2024-04-10</PaidDate>
+        <PaymentMode>Debit</PaymentMode>
+        <ExpireDate>2024-04-15</ExpireDate>
+    </Bill>
+    <Bill>
+        <InvoiceNum>3</InvoiceNum>
+        <BookingID>3</BookingID>
+        <Amount>120.0</Amount>
+        <PaidDate>2024-04-12</PaidDate>
+        <PaymentMode>Debit</PaymentMode>
+        <ExpireDate>2024-04-17</ExpireDate>
+    </Bill>
+    <Bill>
+        <InvoiceNum>4</InvoiceNum>
+        <BookingID>4</BookingID>
+        <Amount>80.0</Amount>
+        <PaidDate>2024-04-10</PaidDate>
+        <PaymentMode>Debit</PaymentMode>
+        <ExpireDate>2024-04-15</ExpireDate>
+    </Bill>
+    <Bill>
+        <InvoiceNum>5</InvoiceNum>
+        <BookingID>5</BookingID>
+        <Amount>200.0</Amount>
+        <PaidDate>2024-04-10</PaidDate>
+        <PaymentMode>Debit</PaymentMode>
+        <ExpireDate>2024-04-15</ExpireDate>
+    </Bill>
+
+
+    <!-- Service instances -->
+    <Service>
+        <ID>1</ID>
+        <BillNum>1</BillNum>
+        <Name>Room Service</Name>
+        <Cost>25.0</Cost>
+        <Description>Food and drinks delivered to the room</Description>
+    </Service>
+    <Service>
+        <ID>2</ID>
+        <BillNum>1</BillNum>
+        <Name>WiFi Access</Name>
+        <Cost>10.0</Cost>
+        <Description>High-speed internet access</Description>
+    </Service>
+    <Service>
+        <ID>3</ID>
+        <BillNum>2</BillNum>
+        <Name>Room Service</Name>
+        <Cost>20.0</Cost>
+        <Description>Food and drinks delivered to the room</Description>
+    </Service>
+    <Service>
+        <ID>4</ID>
+        <BillNum>3</BillNum>
+        <Name>Laundry</Name>
+        <Cost>15.0</Cost>
+        <Description>Cleaning and ironing of clothes</Description>
+    </Service>
+    <Service>
+        <ID>5</ID>
+        <BillNum>3</BillNum>
+        <Name>Room Service</Name>
+        <Cost>30.0</Cost>
+        <Description>Food and drinks delivered to the room</Description>
+    </Service>
+</Database>
